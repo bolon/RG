@@ -1,8 +1,6 @@
 var endpoint = require('../endpoint.json');
 var headers = require('../headers.json');
 
-const supertest = require('supertest')
-const api = supertest(endpoint.domain + endpoint.location.path)
 import * as location from '../location';
 
 // import * as location from '../location';
