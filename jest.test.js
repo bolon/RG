@@ -17,7 +17,7 @@ describe('post test', () => {
     expect(responseWeather.status).toBe(200);
   });
   
-  test('post test 1', async () => {
+  test('post test 2', async () => {
     const responseWeather = await api.get(`/${cityWoeID}/`).set(headers.default)
     expect(responseWeather.status).not.toEqual(404);
   });
