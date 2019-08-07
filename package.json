@@ -1,15 +1,17 @@
 {
-  "name": "jest_test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "private": true,
+  "version": "0.0.0",
+  "name": "example-async",
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "babel-jest": "*",
+    "jest": "*"
   },
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
-    "json": "^9.0.6",
     "supertest": "^4.0.2"
   }
 }
