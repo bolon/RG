@@ -1,0 +1,14 @@
+{
+  "domain" : "https://www.metaweather.com",
+  "location" : {
+    "path" : "/api/location",
+    "search_path" : "/search/?query=",
+    "valid_search_keywords" : [ "london", "jakarta" ],
+    "invalid_search_keywords" : ["testa"]
+  },
+  "region" : {
+    "path" : "/api/foo",
+    "search_path" : "/search/?query=",
+    "search_keywords" : ["london", "jakarta"]
+  }
+}

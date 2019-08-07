@@ -1,0 +1,10 @@
+{
+  "default" : {
+    "Content-Type" : "application/json"
+  },
+  "custom_headers" : {
+    "Content-Type" : "application/json",
+    "Accept" : "application/json",
+    "Auth-key": "te$88knkll!"
+  }
+}
