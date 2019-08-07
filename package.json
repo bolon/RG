@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "0.0.0",
-  "name": "example-async",
+  "name": "RG",
   "devDependencies": {
     "@babel/core": "*",
     "@babel/preset-env": "*",
